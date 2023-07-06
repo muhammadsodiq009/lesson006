@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rect{
+    width: 600px;
+    height: 300px;
+    background: blue;
+}
+.circle{
+    width: 400px;
+    height: 400px;
+    background: blue;
+    border-radius: 50%;
+    margin: auto;
+    transform: translateY(-50px);
+    border: 80px solid dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner__circle{
+    width: 80px;
+    height: 80px;   
+    background: gold;
+    border-radius: 50%;
+}
